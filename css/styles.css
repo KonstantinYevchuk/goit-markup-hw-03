@@ -1,0 +1,201 @@
+:root {
+  --main-back: #ffffff;
+  --main-col: #212121;
+  --main-section: #2f303a;
+  --accent-col: #2196f3;
+  --text-col: #757575;
+  --studio-head: #000000;
+  --main-button-ac: #188ce8;
+  --team-back: #f5f4fa;
+  --foot-back: #2f303a;
+  --portfolio-back: #f5f5f5;
+  --portfolio-button: #f5f4fa;
+}
+
+body {
+  background-color: var(--main-back);
+  color: var(--main-col);
+  font-family: Roboto, Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.logo-web {
+  color: var(--accent-col);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo-studio {
+  color: var(--studio-head);
+}
+/* Navigation */
+.link.current {
+  color: var(--accent-col);
+}
+.menu-link a {
+  color: var(--main-col);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.menu-link a:hover,
+.menu-link a:focus {
+  color: var(--accent-col);
+}
+.contacts a {
+  color: var(--text-col);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-col);
+}
+/* Main */
+.main-content {
+  background-color: var(--main-section);
+  color: var(--main-back);
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-button {
+  background-color: var(--accent-col);
+  color: var(--main-back);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.main-button:hover,
+.main-button:focus {
+  background: var(--main-button-ac);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+p {
+  color: var(--text-col);
+}
+.section-features h2,
+.section-main h1 {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.list-features h3 {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.list-features p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.section-team {
+  background-color: var(--team-back);
+}
+.list-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.list-team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* Footer */
+.back-footer {
+  background-color: var(--foot-back);
+}
+.logo-footer {
+  color: var(--main-back);
+}
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  color: var(--accent-col);
+}
+.list-contacts a {
+  color: var(--main-back);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.list-contacts .mail,
+.list-contacts .tell {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+.portfolio {
+  color: var(--accent-col);
+}
+.section-main {
+  background-color: var(--portfolio-back);
+}
+/* Main */
+.section-main {
+  background-color: var(--main-back);
+}
+.button-nav button {
+  background-color: var(--portfolio-button);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  cursor: pointer;
+}
+.button-nav button:hover,
+.button-nav button:focus {
+  background-color: var(--accent-col);
+  color: var(--main-back);
+}
+.list-portfolio h2 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.list-portfolio p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
