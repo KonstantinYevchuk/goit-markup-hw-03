@@ -22,11 +22,33 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
+header {
+  border-bottom-color: 1px var(--text-col);
+}
 a {
   text-decoration: none;
 }
 li {
   list-style: none;
+}
+.main-navigation {
+  text-align: center;
+}
+.container {
+  display: inline-block;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+}
+/* Navigation */
+.menu-link {
+  margin: 0;
+}
+.contacts {
+  margin: 0;
 }
 .logo-web {
   color: var(--accent-col);
@@ -38,7 +60,7 @@ li {
 .logo-studio {
   color: var(--studio-head);
 }
-/* Navigation */
+
 .link.current {
   color: var(--accent-col);
 }
@@ -66,26 +88,31 @@ li {
 }
 /* Main */
 .main-content {
+  text-align: center;
   background-color: var(--main-section);
   color: var(--main-back);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .main-button {
+  border-radius: 4px;
+  min-width: 216px;
+  padding: 10px 32px;
+  border-color: var(--accent-col);
   background-color: var(--accent-col);
   color: var(--main-back);
   font-family: inherit;
   font-size: 16px;
   line-height: 1.9;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
 }
@@ -93,10 +120,15 @@ li {
 .main-button:focus {
   background: var(--main-button-ac);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
+/* Особливості */
 p {
   color: var(--text-col);
+}
+.section-features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
 }
 .section-features h2,
 .section-main h1 {
@@ -116,34 +148,74 @@ p {
   line-height: 1.17;
   text-align: center;
 }
+.list-features {
+  margin: 0;
+  padding-left: 0;
+}
 .list-features h3 {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .list-features p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
+/* Робота */
+.section-work {
+  padding-bottom: 94px;
+  text-align: center;
+}
+.section-title.work {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.work-list {
+  margin: 0;
+  padding-left: 0;
+}
+/* Команда */
 .section-team {
   background-color: var(--team-back);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+.section-title.team {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.list-team {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 30px;
+  padding-left: 0;
+}
+.list-team img {
+  margin-bottom: 30px;
 }
 .list-team h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .list-team p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin: 0;
 }
 /* Footer */
 .back-footer {
   background-color: var(--foot-back);
+  text-align: center;
 }
 .logo-footer {
   color: var(--main-back);
@@ -168,12 +240,18 @@ p {
 .portfolio {
   color: var(--accent-col);
 }
-.section-main {
-  background-color: var(--portfolio-back);
-}
+
 /* Main */
 .section-main {
   background-color: var(--main-back);
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.button-nav {
+  margin: 0;
+  padding-left: 0;
+  margin-bottom: 34px;
 }
 .button-nav button {
   background-color: var(--portfolio-button);
@@ -189,13 +267,24 @@ p {
   background-color: var(--accent-col);
   color: var(--main-back);
 }
+.list-portfolio {
+  margin: 0;
+  padding-left: 0;
+}
+.list-portfolio img {
+  margin-bottom: 20px;
+}
 .list-portfolio h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 4px;
+
 }
 .list-portfolio p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
+  margin: 0;
 }
