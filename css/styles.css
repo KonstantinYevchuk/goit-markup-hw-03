@@ -10,6 +10,7 @@
   --foot-back: #2f303a;
   --portfolio-back: #f5f5f5;
   --border-headre: #ECECEC;
+  --border-list: #EEEEEE;
 }
 
 body {
@@ -321,6 +322,7 @@ p {
 .portfolio-item {
   flex-basis: calc((100% - 60px) / 3);
   padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-list);
 }
 .list-portfolio img {
   margin-bottom: 20px;
