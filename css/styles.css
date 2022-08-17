@@ -9,6 +9,7 @@
   --team-back: #f5f4fa;
   --foot-back: #2f303a;
   --portfolio-back: #f5f5f5;
+  --border-headre: #ECECEC;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
   letter-spacing: 0.03em;
 }
 header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid var(--border-headre);
 }
 a {
   margin: 0;
