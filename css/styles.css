@@ -22,7 +22,7 @@ body {
   letter-spacing: 0.03em;
 }
 header {
-  border-bottom-color: 1px var(--text-col);
+  border-bottom: 1px solid #ECECEC;
 }
 a {
   margin: 0;
