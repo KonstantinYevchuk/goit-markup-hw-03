@@ -319,6 +319,7 @@ p {
 }
 .portfolio-item {
   flex-basis: calc((100% - 60px) / 3);
+  padding-bottom: 20px;
 }
 .list-portfolio img {
   margin-bottom: 20px;
@@ -334,5 +335,4 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  margin-bottom: 20px;
 }
