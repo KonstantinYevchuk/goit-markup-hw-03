@@ -38,14 +38,15 @@ li {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid tomato; */
 }
 /* Navigation */
 .main-nav,
@@ -53,10 +54,6 @@ img {
   display: flex;
   align-items: center;
 }
-/* .menu,
-.contacts {
-  display: flex;
-} */
 .logo-web {
   color: var(--accent-col);
   font-family: Raleway, sans-serif;
@@ -232,8 +229,9 @@ p {
 .list-item:not(:last-child) {
   margin-right: 30px;
 }
-.list-team img {
-  margin-bottom: 30px;
+.item-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .list-team h3 {
   font-weight: 500;
@@ -247,7 +245,6 @@ p {
   font-size: 16px;
   line-height: 1.19;
   margin: 0;
-  margin-bottom: 30px;
 }
 /* Footer */
 .back-footer {
@@ -321,11 +318,10 @@ p {
 }
 .portfolio-item {
   flex-basis: calc((100% - 60px) / 3);
-  padding-bottom: 20px;
   border-bottom: 1px solid var(--border-list);
 }
-.list-portfolio img {
-  margin-bottom: 20px;
+.text-item {
+ padding: 20px 24px; 
 }
 .list-portfolio h2 {
   font-size: 18px;
