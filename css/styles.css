@@ -119,12 +119,15 @@ img {
   padding-bottom: 200px;
 }
 .title {
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
 }
 .main-button {
@@ -136,6 +139,7 @@ img {
   background-color: var(--accent-col);
   color: var(--main-back);
   font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
@@ -255,12 +259,24 @@ p {
   padding-bottom: 60px;
   background-color: var(--foot-back);
 }
+.logo-web-footer,
+.logo-footer {
+  display: flex;
+  width: 145px;
+  height: 31px;
+  margin-bottom: 20px;
+}
+.logo-web-footer {
+  color: var(--accent-col);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
 .logo-footer {
   color: var(--main-back);
 }
-.footer-contacts {
-  margin-top: 20px;
-}
+
 .footer-contacts a:hover,
 .footer-contacts a:focus {
   color: var(--accent-col);
@@ -271,6 +287,9 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+}
+.item-footer:not(:last-child) {
+  margin-bottom: 9px;
 }
 .list-contacts .mail,
 .list-contacts .tell {
@@ -292,7 +311,7 @@ p {
   display: flex;
   justify-content: center;
   margin: 0;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .button-list:not(:last-child) {
   margin-right: 8px;
@@ -321,10 +340,12 @@ p {
 }
 .portfolio-item {
   flex-basis: calc((100% - 60px) / 3);
-  border-bottom: 1px solid var(--border-list);
 }
 .text-item {
  padding: 20px 24px; 
+ border-bottom: 1px solid var(--border-list);
+ border-left: 1px solid var(--border-list);
+ border-right: 1px solid var(--border-list); 
 }
 .list-portfolio h2 {
   font-size: 18px;
